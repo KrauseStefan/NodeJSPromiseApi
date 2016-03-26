@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-promise-api",
+  "version": "0.0.1",
+  "description": "This is a few wrappers that I kepts remaking",
+  "main": " ",
+  "scripts": {
+    "prepublish": "typings install && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KrauseStefan/NodeJSPromiseApi.git"
+  },
+  "keywords": [
+    "nodejs",
+    "promise"
+  ],
+  "author": "Stefan Krause-Kjær",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KrauseStefan/NodeJSPromiseApi/issues"
+  },
+  "homepage": "https://github.com/KrauseStefan/NodeJSPromiseApi#readme",
+  "devDependencies": {
+    "typescript": "^1.9.0-dev.20160325",
+    "typings": "^0.7.9"
+  },
+  "dependencies": {
+    "rxjs": "^5.0.0-beta.3"
+  }
+}
